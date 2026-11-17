@@ -1,0 +1,14 @@
+{
+  "name": "touchlink",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/mobile-web",
+    "services/gateway"
+  ],
+  "scripts": {
+    "dev:gateway": "npm run dev --workspace @touchlink/gateway",
+    "dev:mobile": "npm run dev --workspace @touchlink/mobile-web",
+    "test": "npm run test --workspaces --if-present"
+  }
+}
