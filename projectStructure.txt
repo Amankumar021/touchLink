@@ -1,0 +1,91 @@
+
+TouchLink/
+│
+├── apps/
+│   ├── mobile-web/
+│   │   ├── public/
+│   │   ├── src/
+│   │   │   ├── assets/
+│   │   │   ├── components/
+│   │   │   ├── pages/
+│   │   │   ├── gestures/
+│   │   │   ├── services/
+│   │   │   ├── stores/
+│   │   │   ├── hooks/
+│   │   │   ├── styles/
+│   │   │   ├── utils/
+│   │   │   └── main.js
+│   │   ├── index.html
+│   │   └── package.json
+│   │
+│   └── android/
+│       └── README.md
+│
+├── services/
+│   └── gateway/
+│       ├── src/
+│       │   ├── config/
+│       │   ├── connection/
+│       │   ├── discovery/
+│       │   ├── pairing/
+│       │   ├── sessions/
+│       │   ├── middleware/
+│       │   ├── handlers/
+│       │   ├── security/
+│       │   ├── validators/
+│       │   ├── app.js
+│       │   └── server.js
+│       ├── tests/
+│       └── package.json
+│
+├── agents/
+│   └── windows-agent/
+│       ├── src/
+│       │   └── touchlink/
+│       │       ├── input/
+│       │       ├── mouse/
+│       │       ├── keyboard/
+│       │       ├── media/
+│       │       ├── networking/
+│       │       ├── security/
+│       │       ├── platform/
+│       │       ├── config/
+│       │       └── main.py
+│       ├── tests/
+│       ├── requirements.txt
+│       └── pyproject.toml
+│
+├── packages/
+│   └── protocol/
+│       ├── events/
+│       ├── schemas/
+│       ├── examples/
+│       └── README.md
+│
+├── infrastructure/
+│   ├── scripts/
+│   ├── packaging/
+│   └── deployment/
+│
+├── docs/
+│   ├── architecture/
+│   ├── api/
+│   ├── security/
+│   ├── setup/
+│   ├── testing/
+│   └── user-guide/
+│
+├── tests/
+│   ├── integration/
+│   ├── performance/
+│   └── end-to-end/
+│
+├── .github/
+│   └── workflows/
+│
+├── .gitignore
+├── .env.example
+├── README.md
+├── LICENSE
+└── package.json
+  
